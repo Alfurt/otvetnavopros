@@ -1,0 +1,151 @@
+
+body {
+background-color: #1a001a;
+margin: 0;
+height: 100%;}
+
+
+
+#wrapper {
+  background-color: #1a001a;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* menu*/
+
+
+
+.nav {
+	margin-top: 2em;
+ font-size: 1.5em;
+ padding-top: 2.5em;
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+
+
+}
+.nav li {
+	margin: 0 5px 10px 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+
+}
+.nav a {
+	padding: 3px 12px;
+	text-decoration: none;
+	color: #F137A6;
+	line-height: 100%;
+
+}
+.nav a:hover {
+	color: white;
+  text-decoration: underline #F137A6;
+}
+/* .nav .current a {
+	background: #999;
+	color: #fff;
+	border-radius: 3px;
+}
+*/
+
+.nav.center ul {
+	text-align: center;
+}
+
+
+
+/*end of menu*/
+
+#buttn-wrapper{
+  margin-top: 3em;
+}
+
+input {
+  outline: none;
+  padding: 3em 2em;
+  margin: 0px auto;
+  border-radius: 2rem;
+  box-shadow: 0 0 2em 1em #F137A6 inset, 0 0 0 0 #F137A6;
+  font-family: 'Georgia', sans-serif;
+  font-size: 1em;
+  color: #F137A6;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #F137A6;
+  transition: .25s ease-in-out;
+}
+
+input:hover {
+  box-shadow: 0 0 0.1em 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+  color: #F137A6;
+}
+
+
+.span-wrapper {
+  padding-top: 2em;
+  height: 90%;
+  margin: auto;
+ }
+
+ #result-field {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-end;
+
+ }
+
+h2 {
+  color: #F137A6;
+  font-size: 2em;
+  font-family: 'Georgia', sans-serif 2.5em;
+}
+
+p{
+  width: 80%;
+  margin: auto;
+  color: white;
+  font-family: 'Georgia', sans-serif;
+  font-size: 0.9em;
+  text-align: justify;
+  margin-top: 1em;
+  }
+
+  .example{
+    color: lightgrey;
+    font-style: italic;
+    font-family: 'Georgia', sans-serif 1.8em;
+    text-align: center;
+    text-decoration: underline #F137A6;
+    margin-top: 0.6em;
+    font-size: 0.7em;
+
+
+  }
+
+  .rules {
+    margin-top: 4em;
+    margin-bottom: 2em;
+  }
+
+
+footer {
+  background-color: lightgrey;
+  position: relative;
+    box-shadow: 0 0 0.1em 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+}
+
+#home
+{
+  float: right;
+  width: 50px;
+  padding-right: 0.5em;
+}
