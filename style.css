@@ -8,7 +8,6 @@ height: 100%;}
 
 #wrapper {
   background-color: #1a001a;
-
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -74,7 +73,7 @@ input {
   border-radius: 2rem;
   box-shadow: 0 0 2em 1em #F137A6 inset, 0 0 0 0 #F137A6;
   font-family: 'Georgia', sans-serif;
-  font-size: 1em;
+  font-size: 0.9em;
   color: #F137A6;
   font-weight: bold;
   letter-spacing: 1px;
